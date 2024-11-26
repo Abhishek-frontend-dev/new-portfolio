@@ -16,7 +16,7 @@ const AboutMe = () => {
           {/* Profile Picture */}
           <div className="flex justify-center">
             <img
-              src="src/assets/profile.jpg"
+              src="/media/profile.jpg"
               alt="Your Name"
               className="rounded-full w-64 h-64 object-cover shadow-lg transition-transform duration-300 hover:scale-105"
             />
