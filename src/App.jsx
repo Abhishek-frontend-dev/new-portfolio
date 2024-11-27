@@ -23,7 +23,7 @@ function App(){
 
     <div className={isDarkmode ? 'dark' : ''}>
       <Navbar toggleTheme={toggleTheme}/>
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white overflow-hidden">
 <Hero/>
 <AboutMe/>
 <Skilles/>
