@@ -1,6 +1,6 @@
 import React from 'react';
 import './Custom.css';
-import ProjectSection from './Projects';
+import { Link } from 'react-scroll';
 
 const HeroSection = () => {
   return (
@@ -25,18 +25,19 @@ const HeroSection = () => {
 
         {/* Call-to-Action Button */}
         <div className='flex flex-col sm:flex-row justify-center '>
-          <a
-            href="#"
+          <Link
+            to="projects"
             className="px-8 py-4 bg-yellow-400 text-gray-900 font-semibold rounded-lg shadow-md hover:bg-yellow-300 hover:scale-105 transition-all duration-300 ease-in-out m-3"
           >
             View My Work
-          </a>
+          </Link>
 
           <a
-            href="#"
+           href="media/Abhishek Kumar CV.pdf"
+           download="Abhishek_cv.pdf"
             className="px-8 py-4 bg-blue-700 text-gray-900 font-semibold rounded-lg shadow-md hover:bg-blue-500 hover:scale-105 transition-all duration-300 ease-in-out m-3"
           >
-            View My Work
+            Download CV
           </a>
         </div>
       </div>
