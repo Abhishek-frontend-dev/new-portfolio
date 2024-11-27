@@ -53,7 +53,7 @@ const ContactForm = () => {
         {/* Right Side: Vector + Welcome Message */}
         <div className="relative overflow-hidden rounded-lg shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl">
             <img
-              src="/media/contactImg.png"
+              src="media/contactImg.png"
 
               alt="Contact Illustration"
               className="max-w-full h-96 transition-transform duration-500 ease-in-out transform hover:rotate-3"
