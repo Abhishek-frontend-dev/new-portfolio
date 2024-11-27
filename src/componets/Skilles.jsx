@@ -42,28 +42,28 @@ const SkillsSection = () => {
               <div className="skill-card hover:bg-blue-800 p-4 rounded-lg transition-all ease-in-out">
                 <FaReact className="text-5xl text-blue-500 mb-2" />
                 <h4 className="text-xl font-medium">React</h4>
-                <p className="dark:text-gray-300 text-gray-900">I have done '5 projects in this skill</p>
+                <p className="dark:text-gray-300 text-gray-900">I have done '4 projects in this skill</p>
               </div>
 
               {/* Skill Card for Bootstrap */}
               <div className="skill-card hover:bg-blue-800 p-4 rounded-lg transition-all ease-in-out">
                 <FaBootstrap className="text-5xl text-blue-500 mb-2" />
                 <h4 className="text-xl font-medium">Bootstrap</h4>
-                <p className="dark:text-gray-300 text-gray-900">I have done '5 projects in this skill</p>
+                <p className="dark:text-gray-300 text-gray-900">I have done '2 projects in this skill</p>
               </div>
 
               {/* Skill Card for Tailwind CSS */}
               <div className="skill-card hover:bg-blue-800 p-4 rounded-lg transition-all ease-in-out">
                 <SiTailwindcss className="text-5xl text-blue-500 mb-2" />
                 <h4 className="text-xl font-medium">Tailwind CSS</h4>
-                <p className="dark:text-gray-300 text-gray-900">I have done '5 projects in this skill</p>
+                <p className="dark:text-gray-300 text-gray-900">I have done '2 projects in this skill</p>
               </div>
 
               {/* Skill Card for JQuery */}
               <div className="skill-card hover:bg-blue-800 p-4 rounded-lg transition-all ease-in-out">
                 <SiJquery className="text-5xl text-blue-500 mb-2" />
                 <h4 className="text-xl font-medium">JQuery</h4>
-                <p className="dark:text-gray-300 text-gray-900">I have done '5 projects in this skill</p>
+                <p className="dark:text-gray-300 text-gray-900">I am proficient in using Git for version control, including tasks such as branching, merging, resolving conflicts, and collaborating effectively in team environments</p>
               </div>
 
               {/* Skill Card for Git */}
@@ -77,7 +77,7 @@ const SkillsSection = () => {
               <div className="skill-card hover:bg-blue-800 p-4 rounded-lg transition-all ease-in-out">
                 <VscVscode className="text-5xl text-blue-500 mb-2" />
                 <h4 className="text-xl font-medium">VsCode</h4>
-                <p className="dark:text-gray-300 text-gray-900">I have done '5 projects in this skill</p>
+                <p className="dark:text-gray-300 text-gray-900">I am skilled in using Visual Studio Code (VS Code) as my primary code editor, utilizing extensions, debugging tools, and version control integration for efficient development and project managemen</p>
               </div>
             </div>
           </div>
