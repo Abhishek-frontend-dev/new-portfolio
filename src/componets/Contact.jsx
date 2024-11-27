@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import "aos/dist/aos.css";
+import AOS from "aos";
+AOS.init();
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -51,7 +54,7 @@ const ContactForm = () => {
       </h2>
       <div className="flex flex-col lg:flex-row items-center gap-10 max-w-6xl mx-auto">
         {/* Right Side: Vector + Welcome Message */}
-        <div className="relative overflow-hidden rounded-lg shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+        <div className="relative overflow-hidden rounded-lg shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl" data-aos="fade-right" data-aos-duration="1000">
             <img
               src="media/contactImg.png"
 
@@ -69,7 +72,7 @@ const ContactForm = () => {
           </div>
 
         {/* Left Side: Contact Form */}
-        <div className="flex-1">
+        <div className="flex-1" data-aos="fade-left" data-aos-duration="1000">
           <form
             onSubmit={handleSubmit}
             className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg space-y-4"
