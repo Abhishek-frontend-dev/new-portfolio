@@ -63,14 +63,14 @@ const SkillsSection = () => {
               <div className="skill-card hover:bg-blue-800 p-4 rounded-lg transition-all ease-in-out">
                 <SiJquery className="text-5xl text-blue-500 mb-2" />
                 <h4 className="text-xl font-medium">JQuery</h4>
-                <p className="dark:text-gray-300 text-gray-900">I am proficient in using Git for version control, including tasks such as branching, merging, resolving conflicts, and collaborating effectively in team environments</p>
+                <p className="dark:text-gray-300 text-gray-900">I have done '2 projects in this skill</p>
               </div>
 
               {/* Skill Card for Git */}
               <div className="skill-card hover:bg-orange-800 p-4 rounded-lg transition-all ease-in-out">
                 <FaGitAlt className="text-5xl text-orange-500 mb-2" />
                 <h4 className="text-xl font-medium">Git/GitHub</h4>
-                <p className="dark:text-gray-300 text-gray-900">I have done '5 projects in this skill</p>
+                <p className="dark:text-gray-300 text-gray-900">I am proficient in using Git for version control, including tasks such as branching, merging, resolving conflicts, and collaborating effectively in team environments</p>
               </div>
 
               {/* Skill Card for VSCode */}
