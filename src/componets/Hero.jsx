@@ -1,5 +1,6 @@
 import React from 'react';
 import './Custom.css';
+import ProjectSection from './Projects';
 
 const HeroSection = () => {
   return (
@@ -23,7 +24,7 @@ const HeroSection = () => {
         </p>
 
         {/* Call-to-Action Button */}
-        <div>
+        <div className='flex flex-col sm:flex-row justify-center '>
           <a
             href="#"
             className="px-8 py-4 bg-yellow-400 text-gray-900 font-semibold rounded-lg shadow-md hover:bg-yellow-300 hover:scale-105 transition-all duration-300 ease-in-out m-3"
@@ -33,7 +34,7 @@ const HeroSection = () => {
 
           <a
             href="#"
-            className="px-8 py-4 bg-blue-700 text-gray-900 font-semibold rounded-lg shadow-md hover:bg-blue-500 hover:scale-105 transition-all duration-300 ease-in-out"
+            className="px-8 py-4 bg-blue-700 text-gray-900 font-semibold rounded-lg shadow-md hover:bg-blue-500 hover:scale-105 transition-all duration-300 ease-in-out m-3"
           >
             View My Work
           </a>

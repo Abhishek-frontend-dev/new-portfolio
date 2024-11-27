@@ -53,14 +53,17 @@ const Navbar = () => {
           isMenuOpen ? 'block' : 'hidden'
         } sm:flex flex-col sm:flex-row items-center gap-4 sm:gap-8 absolute sm:relative top-16 sm:top-0 left-0 sm:left-auto right-0 sm:right-auto bg-gray-800 sm:bg-transparent w-full sm:w-auto z-40 shadow-lg sm:shadow-none`}
       >
-        <a href="#about" className="block sm:inline-block hover:text-rose-300 px-4 py-2 sm:p-0">
+        <a href="#about" className="block sm:inline-block hover:text-yellow-300 px-4 py-2 sm:p-0">
           About
         </a>
-        <a href="#projects" className="block sm:inline-block hover:text-rose-300 px-4 py-2 sm:p-0">
+        <a href="#projects" className="block sm:inline-block hover:text-yellow-300 px-4 py-2 sm:p-0">
           Projects
         </a>
-        <a href="#contact" className="block sm:inline-block hover:text-rose-300 px-4 py-2 sm:p-0">
+        <a href="#contact" className="block sm:inline-block hover:text-yellow-300 px-4 py-2 sm:p-0">
           Contact
+        </a>
+         <a href="#contact" className="block sm:inline-block hover:text-yellow-300 px-4 py-2 sm:p-0">
+          Skilles
         </a>
       </div>
     </nav>
