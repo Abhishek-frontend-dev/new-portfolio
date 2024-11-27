@@ -83,7 +83,7 @@ const ProjectSection = () => {
   return (
     <section id='projects' className="project-section py-16 bg-gray-900 p-4 dark:bg-gradient-to-r dark:from-indigo-1000 dark:via-purple-900 dark:to-pink-800 dark:text-white text-gray-700 bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-200">
       <h2 className="text-3xl font-semibold text-white text-center mb-8">My Projects</h2>
-      <div className="projects-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 cursor-pointer " data-aos="fade-up-right" data-aos-duration="1000"
+      <div className="projects-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 cursor-pointer " data-aos="fade-up-right" data-aos-duration="2000"
       >
         {projects.map((project, index) => (
           <ProjectCard
