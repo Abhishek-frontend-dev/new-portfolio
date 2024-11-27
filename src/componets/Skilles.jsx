@@ -8,7 +8,7 @@ AOS.init();
 
 const SkillsSection = () => {
   return (
-    <section className="py-20 min-h-screen dark:bg-gradient-to-r dark:from-indigo-900 dark:via-purple-900 dark:to-pink-600 dark:text-white text-gray-700 bg-gradient-to-r from-indigo-300 via-purple-300 to-pink-200" id='skille'>
+    <section  className="py-20 min-h-screen dark:bg-gradient-to-r dark:from-indigo-900 dark:via-purple-900 dark:to-pink-600 dark:text-white text-gray-700 bg-gradient-to-r from-indigo-300 via-purple-300 to-pink-200" id='skilles'>
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-8">My Skills</h2>
         

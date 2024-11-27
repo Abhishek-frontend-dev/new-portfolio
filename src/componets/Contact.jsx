@@ -45,7 +45,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contact-section bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900">
+    <div id="contact" className="contact-section bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900">
       <h2 className="text-4xl font-bold text-center  p-5 mb-12 text-gray-800 dark:text-gray-200">
         Contact Me
       </h2>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './componets/Navbar';  // Updated import path
 import './index.css';
 import Hero from './componets/Hero';
-import AboutMe from './componets/AboutMe';
+import AboutMe from './componets/Aboutme';
 import Skilles from './componets/Skilles';
 import Projects from './componets/Projects';
 import Contact from './componets/Contact';

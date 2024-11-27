@@ -6,7 +6,7 @@ AOS.init();
 
 const AboutMe = () => {
   return (
-   <section className="py-20 bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900">
+   <section id="about" className="py-20 bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900">
       <div className="container mx-auto px-6 md:px-12">
         <div
           className="grid md:grid-cols-2 gap-8 items-center"

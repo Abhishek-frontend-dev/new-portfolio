@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MdDarkMode, MdLightMode } from 'react-icons/md';
 import { FiMenu, FiX } from 'react-icons/fi';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(true);
@@ -53,18 +54,47 @@ const Navbar = () => {
           isMenuOpen ? 'block' : 'hidden'
         } sm:flex flex-col sm:flex-row items-center gap-4 sm:gap-8 absolute sm:relative top-16 sm:top-0 left-0 sm:left-auto right-0 sm:right-auto bg-gray-800 sm:bg-transparent w-full sm:w-auto z-40 shadow-lg sm:shadow-none`}
       >
-        <a href="#about" className="block sm:inline-block hover:text-yellow-300 px-4 py-2 sm:p-0">
+        <Link
+          to="about"
+          smooth={true}
+          duration={500} 
+          className="block sm:inline-block hover:text-rose-300 px-4 py-2 sm:p-0 cursor-pointer"
+           activeClass="text-yellow-300"
+           onClick={() => setIsMenuOpen(false)}>
           About
-        </a>
-        <a href="#projects" className="block sm:inline-block hover:text-yellow-300 px-4 py-2 sm:p-0">
-          Projects
-        </a>
-        <a href="#contact" className="block sm:inline-block hover:text-yellow-300 px-4 py-2 sm:p-0">
+        </Link>
+
+         <Link
+          to="contact"
+          smooth={true}
+          duration={500} 
+          className="block sm:inline-block hover:text-rose-300 px-4 py-2 sm:p-0 cursor-pointer"
+           activeClass="text-yellow-300"
+           onClick={() => setIsMenuOpen(false)}>
           Contact
-        </a>
-         <a href="#contact" className="block sm:inline-block hover:text-yellow-300 px-4 py-2 sm:p-0">
+        </Link>
+
+        <Link
+          to="projects"
+          smooth={true}
+          duration={500} 
+          className="block sm:inline-block hover:text-rose-300 px-4 py-2 sm:p-0 cursor-pointer"
+           activeClass="text-yellow-300"
+           onClick={() => setIsMenuOpen(false)}
+           >
+          Projects
+        </Link>
+
+         <Link
+          to="skilles"
+          smooth={true}
+          duration={500} 
+          className="block sm:inline-block hover:text-rose-300 px-4 py-2 sm:p-0 cursor-pointer"
+           activeClass="text-yellow-300"
+           onClick={() => setIsMenuOpen(false)}>
           Skilles
-        </a>
+        </Link>
+
       </div>
     </nav>
   );

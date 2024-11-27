@@ -4,7 +4,7 @@ import ProjectSection from './Projects';
 
 const HeroSection = () => {
   return (
-    <section className="relative dark:bg-gradient-to-tr dark:from-indigo-900 dark:via-purple-900 dark:to-amber-800 text-white py-20 min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-400 to-blue-600 via-indigo-800">
+    <section id='hero' className="relative dark:bg-gradient-to-tr dark:from-indigo-900 dark:via-purple-900 dark:to-amber-800 text-white py-20 min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-400 to-blue-600 via-indigo-800">
       {/* Background Glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0) 70%)] opacity-10"></div>
 
