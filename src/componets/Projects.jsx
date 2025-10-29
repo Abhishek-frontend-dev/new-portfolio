@@ -23,18 +23,18 @@ const ProjectSection = () => {
     },
 
     {
-      title: 'Restorent Home Page',
-      description: 'This Product Filter App was an exciting project where I implemented dynamic filtering features using React The app allows users to sort and filter productsbased on various criteria, providing a seamless and interactive experience. Working on this project helped me better understand state management with the useState hook and how to handle user inputs effectively. It also strengthened my skills in creating reusable components and managing props for dynamic functionality. This project gave me valuable insights into building feature-rich, user-friendly React applications.',
-      videoSrc: 'media/htmlcssjs-restorent-site.mp4',
-      thumbnail: 'media/htmlcssjs-restorent-site.jpg',
+      title: 'Moddesk — a modern, premium Page',
+      description: 'This Moddesk — a modern, premium-style front-end web project designed and developed from scratch. I wanted to build something that truly looks clean, elegant, and real, not just another static page. Built with: HTML • Tailwind CSS • JavaScript (jQuery) • AOS Animations Designed in: Figma Main Highlights: Gradient hero section with smooth auto-image slider “Why Moddesk” feature grid with soft hover glow “How It Works” section — zoom & color-shift on hover Responsive testimonial slider (3 → 2 → 1 layout) Modern glass-style pricing section (different heights, subtle hover on buttons) Clean scroll-based animations with AOS Each section was designed to tell a story — from introducing the brand to showing features, client stories, and pricing — all in one smooth flow.',
+      videoSrc: 'media/Moddesk.in - Google Chrome 2025-10-27 16-09-51.mp4',
+      thumbnail: 'media/Moddesk.jpg',
        technologies: [<FaJsSquare className='text-yellow-400'/>, <FaCss3Alt  className='text-blue-400'/>, <FaHtml5  className='text-orange-500'/>],
     },
 
        {
-      title: 'Marks Calculator in js',
-      description: 'The Marks Calculator project is a tool that calculates a students total marks, percentage, and grade based on their scores.I developed this project using JavaScript to handle conditional logic allowing the calculator to display the grade directly in an input field—a feature that earned me recognition from my teacher. While others faced challenges implementing this, I quickly solved it, strengthening my understanding of JavaScript comparison and conditional flows. This project was an excellent opportunity to practice logic building and improve my skills in creating interactive and functional web tools.',
-      videoSrc: 'media/marks-calculator-js.mp4',
-      thumbnail: 'media/marks-calculator-js.jpg',
+      title: 'Task Tracker in js', 
+      description: 'Just shared my Task Tracker project — built with jQuery, TailwindCSS, and plain HTML. This is a desktop-only app for now. I built it to practice my jQuery skills and understand how the DOM really works — without depending on frameworks. Why jQuery? A lot of people say jQuery is old now, but I feel it’s still useful. Many websites and projects still use it, and it teaches you how to think in terms of the DOM and events. This project was a way for me to learn and prove to myself that I can build a fully working app just with the basics and jQuery. Features: Add, edit, delete tasks Mark tasks as working or completed Add comments to tasks and toggle them Live status counts: total, pending, completed Shows the date & time when a task was created',
+      videoSrc: 'media/task tracker - Made with Clipchamp.mp4',
+      thumbnail: 'media/todo-manager.jpg',
       technologies: [<FaJsSquare className='text-yellow-400'/>, <FaCss3Alt  className='text-blue-400'/>, <FaHtml5  className='text-orange-500'/>],
     },
 
@@ -49,16 +49,16 @@ const ProjectSection = () => {
       {
       title: 'Quiz App In React js',
       description: 'This Quiz App, built in React, includes a scoring system that tracks correct answers and a "Play Again" button for multiple attempts As users select answers their score updates based on correctness, providing a dynamic and interactive experience. Developing this app gave me a strong boost in confidence, helping me gauge my progress in React and better understand my skills with handling state and component interactions. This project has been a great stepping stone in my React journey, reinforcing my knowledge of hooks and overall React functionality.',
-      videoSrc: 'media/quiz-app-react.mp4',
+      videoSrc: 'media/Dashboard-linkedinvd - Made with Clipchamp (1).mp4',
       thumbnail: 'media/quiz-app-react.jpg',
        technologies: [<FaReact className='text-blue-600' />, <FaCss3Alt  className='text-blue-400'/>, <FaHtml5  className='text-orange-500'/>],
     },
 
       {
-      title: 'Quiz App In js',
-      description: 'This Quiz App, created with JavaScript, was a great learning experience for building interactive features The app includes hover effects that highlight answers with a background color. When a correct answer is clicked, it turns green, while incorrect answers turn red. Once an answer is selected, further clicks are disabled to maintain accuracy. At the end, users see their score along with a "Play Again" button to restart the quiz. This project was a valuable practice for me to understand event handling, conditional logic, and creating user-friendly functionality in JavaScript',
-      videoSrc: 'media/quiz-app-js.mp4',
-      thumbnail: 'media/quiz-app-js.jpg',
+      title: 'CRM Dashboard UI Project',
+      description: 'This CRM Dashboard UI Project — built entirely with HTML, Tailwind CSS, and Vanilla JavaScript, without any frameworks.The idea came after learning array methods in JavaScript. I wanted a real-world project to challenge myself — something beyond a todo app. What this dashboard does: Add, edit, delete employee cards Toggle user active/inactive status Live search by name, email, or designation Filter by age and designation Live stats panel (total, active, average users) Dark mode toggle All data saved using LocalStorage Tech used: HTML, Tailwind CSS, Vanilla JavaScript',
+      videoSrc: 'media/Dashboard-linkedinvd - Made with Clipchamp (1).mp4',
+      thumbnail: 'media/CRM.jpg',
        technologies: [<FaJsSquare className='text-yellow-400' />, <FaCss3Alt className='text-blue-400' />, <FaHtml5  className='text-orange-500'/>],
     },
 
