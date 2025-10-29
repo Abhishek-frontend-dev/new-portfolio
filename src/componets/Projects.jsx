@@ -23,10 +23,10 @@ const ProjectSection = () => {
     },
 
     {
-      title: 'Restorent Home Page',
+      title: 'Moddesk ',
       description: 'This Product Filter App was an exciting project where I implemented dynamic filtering features using React The app allows users to sort and filter productsbased on various criteria, providing a seamless and interactive experience. Working on this project helped me better understand state management with the useState hook and how to handle user inputs effectively. It also strengthened my skills in creating reusable components and managing props for dynamic functionality. This project gave me valuable insights into building feature-rich, user-friendly React applications.',
-      videoSrc: 'media/htmlcssjs-restorent-site.mp4',
-      thumbnail: 'media/htmlcssjs-restorent-site.jpg',
+      videoSrc: 'media/Moddesk Website Ui.png - Moddesk - Visual Studio Code 2025-10-27 16-03-50 (online-video-cutter.com) (1) (2) (online-video-cutter.com).mp4',
+      thumbnail: 'media/Moddesk.jpg',
        technologies: [<FaJsSquare className='text-yellow-400'/>, <FaCss3Alt  className='text-blue-400'/>, <FaHtml5  className='text-orange-500'/>],
     },
 
@@ -49,7 +49,7 @@ const ProjectSection = () => {
       {
       title: 'Quiz App In React js',
       description: 'This Quiz App, built in React, includes a scoring system that tracks correct answers and a "Play Again" button for multiple attempts As users select answers their score updates based on correctness, providing a dynamic and interactive experience. Developing this app gave me a strong boost in confidence, helping me gauge my progress in React and better understand my skills with handling state and component interactions. This project has been a great stepping stone in my React journey, reinforcing my knowledge of hooks and overall React functionality.',
-      videoSrc: 'media/Dashboard-linkedinvd - Made with Clipchamp (1).mp4',
+      videoSrc: 'media/quiz-app-react.mp4',
       thumbnail: 'media/quiz-app-react.jpg',
        technologies: [<FaReact className='text-blue-600' />, <FaCss3Alt  className='text-blue-400'/>, <FaHtml5  className='text-orange-500'/>],
     },
