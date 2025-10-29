@@ -16,17 +16,17 @@ const ProjectSection = () => {
     },
     {
       title: 'Product Filter App React',
-      description: 'This Egg Restaurant project was a valuable learning experience where I applied and strengthened my front-end development skills.By creating this website I learned key concepts like building a responsive layout, adding form validation for easy table booking, and creating an image slider to make the site more engaging. Integrating Google Maps to show the restaurant’s location also helped me understand working with APIs. This project allowed me to blend design with interactive features, boosting my skills in HTML, CSS, and JavaScript while building a user-friendly, attractive restaurant site.',
+      description: 'This Product Filter App was an exciting project where I implemented dynamic filtering features using React The app allows users to sort and filter productsbased on various criteria, providing a seamless and interactive experience. Working on this project helped me better understand state management with the useState hook and how to handle user inputs effectively. It also strengthened my skills in creating reusable components and managing props for dynamic functionality. This project gave me valuable insights into building feature-rich, user-friendly React applications.',
       videoSrc: 'media/product-filter-appin-react.mp4',
       thumbnail: 'media/product-filter-appin-react.jpg',
       technologies: [<FaReact className='text-blue-600' />, <FaCss3Alt  className='text-blue-400'/>, <FaHtml5  className='text-orange-500'/>],
     },
 
     {
-      title: 'Moddesk — a modern, premium Page',
-      description: 'This Moddesk — a modern, premium-style front-end web project designed and developed from scratch. I wanted to build something that truly looks clean, elegant, and real, not just another static page. Built with: HTML • Tailwind CSS • JavaScript (jQuery) • AOS Animations Designed in: Figma Main Highlights: Gradient hero section with smooth auto-image slider “Why Moddesk” feature grid with soft hover glow “How It Works” section — zoom & color-shift on hover Responsive testimonial slider (3 → 2 → 1 layout) Modern glass-style pricing section (different heights, subtle hover on buttons) Clean scroll-based animations with AOS Each section was designed to tell a story — from introducing the brand to showing features, client stories, and pricing — all in one smooth flow.',
-      videoSrc: 'media/Moddesk.in - Google Chrome 2025-10-27 16-09-51.mp4',
-      thumbnail: 'media/Moddesk.jpg',
+      title: 'Restorent Home Page',
+      description: 'This Product Filter App was an exciting project where I implemented dynamic filtering features using React The app allows users to sort and filter productsbased on various criteria, providing a seamless and interactive experience. Working on this project helped me better understand state management with the useState hook and how to handle user inputs effectively. It also strengthened my skills in creating reusable components and managing props for dynamic functionality. This project gave me valuable insights into building feature-rich, user-friendly React applications.',
+      videoSrc: 'media/htmlcssjs-restorent-site.mp4',
+      thumbnail: 'media/htmlcssjs-restorent-site.jpg',
        technologies: [<FaJsSquare className='text-yellow-400'/>, <FaCss3Alt  className='text-blue-400'/>, <FaHtml5  className='text-orange-500'/>],
     },
 
