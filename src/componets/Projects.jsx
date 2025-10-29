@@ -57,7 +57,7 @@ const ProjectSection = () => {
       {
       title: 'CRM Dashboard UI Project',
       description: 'This CRM Dashboard UI Project — built entirely with HTML, Tailwind CSS, and Vanilla JavaScript, without any frameworks.The idea came after learning array methods in JavaScript. I wanted a real-world project to challenge myself — something beyond a todo app. What this dashboard does: Add, edit, delete employee cards Toggle user active/inactive status Live search by name, email, or designation Filter by age and designation Live stats panel (total, active, average users) Dark mode toggle All data saved using LocalStorage Tech used: HTML, Tailwind CSS, Vanilla JavaScript',
-      videoSrc: 'media/Dashboard',
+      videoSrc: 'media/Dashboard.mp4',
       thumbnail: 'media/CRM.jpg',
        technologies: [<FaJsSquare className='text-yellow-400' />, <FaCss3Alt className='text-blue-400' />, <FaHtml5  className='text-orange-500'/>],
     },
