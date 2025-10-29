@@ -25,7 +25,7 @@ const ProjectSection = () => {
     {
       title: 'Moddesk ',
       description: 'This Product Filter App was an exciting project where I implemented dynamic filtering features using React The app allows users to sort and filter productsbased on various criteria, providing a seamless and interactive experience. Working on this project helped me better understand state management with the useState hook and how to handle user inputs effectively. It also strengthened my skills in creating reusable components and managing props for dynamic functionality. This project gave me valuable insights into building feature-rich, user-friendly React applications.',
-      videoSrc: 'media/Moddesk Website Ui.png - Moddesk - Visual Studio Code 2025-10-27 16-03-50 (online-video-cutter.com) (1) (2) (online-video-cutter.com).mp4',
+      videoSrc: 'media/Moddesk Website-Ui.mp4',
       thumbnail: 'media/Moddesk.jpg',
        technologies: [<FaJsSquare className='text-yellow-400'/>, <FaCss3Alt  className='text-blue-400'/>, <FaHtml5  className='text-orange-500'/>],
     },
@@ -57,7 +57,7 @@ const ProjectSection = () => {
       {
       title: 'CRM Dashboard UI Project',
       description: 'This CRM Dashboard UI Project — built entirely with HTML, Tailwind CSS, and Vanilla JavaScript, without any frameworks.The idea came after learning array methods in JavaScript. I wanted a real-world project to challenge myself — something beyond a todo app. What this dashboard does: Add, edit, delete employee cards Toggle user active/inactive status Live search by name, email, or designation Filter by age and designation Live stats panel (total, active, average users) Dark mode toggle All data saved using LocalStorage Tech used: HTML, Tailwind CSS, Vanilla JavaScript',
-      videoSrc: 'media/Dashboard-linkedinvd - Made with Clipchamp (1).mp4',
+      videoSrc: 'media/Dashboard',
       thumbnail: 'media/CRM.jpg',
        technologies: [<FaJsSquare className='text-yellow-400' />, <FaCss3Alt className='text-blue-400' />, <FaHtml5  className='text-orange-500'/>],
     },
